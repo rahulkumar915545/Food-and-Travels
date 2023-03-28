@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 20px;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.423),rgba(128,128,128,0.4)),url(../Assert/Image/headerimg.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 10px black;
+}
+.sublist{
+    padding-left: 40px;
+    font-size: 24px;
+    transition: transform 0.2s;
+    height: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#right{
+    position: absolute;
+    right: 20px;
+}
+.sublist:hover{
+    transform: scale(1.2);
+}
+#containerplace{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.places{
+    width: 20vw;
+    height: 30vh;
+    
+    background-size: 100% 32vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.places:hover{
+    background-size: 110% 32vh;
+    transform: scale(1.2);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+#place1{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.413), rgba(0, 0, 0, 0.426)), url(../Assert/Image/india.jpg);
+}
+#place2{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.413), rgba(0, 0, 0, 0.426)),url(../Assert/Image/Switzerland.webp);
+}
+#place3{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.413), rgba(0, 0, 0, 0.426)),url(../Assert/Image/Japan.webp);
+}
+#place4{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.413), rgba(0, 0, 0, 0.426)),url(../Assert/Image/dubai.webp);
+}
+#heading{
+    width: 45vw;
+    height: 80vh;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+#textheading{
+    font-size: 11vw;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px;
+}
+
+
+/* #navbar .sublist::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: #009688;
+    position: absolute;
+    left: 38px;
+    bottom: 5px;
+    transition: 0.5s;
+ }
+ #navbar .sublist:hover:after{
+     width: 60%;
+ } */

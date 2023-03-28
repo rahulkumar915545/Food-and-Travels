@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Gallery</title>
+       <link rel="stylesheet" href="../CSS/gallary.css">
+       <script src="../JS/gallary.js" defer></script>
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+</head>
+<body onload="header()">
+    <div id="header">
+        <ul id="navbar">
+            <li class="sublist" id="home"><a href="./Home.html">Home</a></li>
+            <li class="sublist" id="info"><a href="./info.html">Info</a></li>
+            <li class="sublist" id="logout" onclick="logout()"><a href="../index.html">Logout</a></li>
+            <h1 id="pageheading">Gallary</h1>
+        </ul>
+        <button id="left" onclick="left()"> < </button>
+        <button id="right" value="inc" onclick="right()"> > </button>
+    </div>
+    <div id="bodyofGallary">
+        <div id="gallary">
+            <img class="images" onclick="openTheImage(0)">
+            <img class="images" onclick="openTheImage(1)">
+            <img class="images" onclick="openTheImage(2)">
+            <img class="images" onclick="openTheImage(3)">
+            <img class="images" onclick="openTheImage(4)">
+            <img class="images" onclick="openTheImage(5)">
+            <img class="images" onclick="openTheImage(6)">
+            <img class="images" onclick="openTheImage(7)">
+            <img class="images" onclick="openTheImage(8)">
+            <img class="images" onclick="openTheImage(9)">
+            <img class="images" onclick="openTheImage(10)">
+            <img class="images" onclick="openTheImage(11)">
+            <img class="images" onclick="openTheImage(12)">
+            <img class="images" onclick="openTheImage(13)">
+            <img class="images" onclick="openTheImage(14)">
+            <img class="images" onclick="openTheImage(15)">
+            <img class="images" onclick="openTheImage(16)">
+            <img class="images" onclick="openTheImage(17)">
+            <img class="images" onclick="openTheImage(18)">
+            <img class="images" onclick="openTheImage(19)">
+            <img class="images" onclick="openTheImage(20)">
+            <img class="images" onclick="openTheImage(21)">
+            <img class="images" onclick="openTheImage(22)">
+            <img class="images" onclick="openTheImage(23)">
+            <img class="images" onclick="openTheImage(24)">
+        </div>
+    </div>
+    <div id="bigImage" style="display: none;">
+        <h1 id="close" onclick="closeTheImage()"> X </h1>
+        <img id="bigimg">
+    </div>
+
+
+    <div id="footer">
+        <i id="cpr" class="fa-sharp fa-solid fa-copyright"></i>
+        <span>This copyright belongs to food&travels</span>
+        <div id="sociallink">
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i> 
+            <i class="fa-brands fa-twitter"></i>   
+        </div>    
+    </div>
+
+
+    <div>
+        <a href="#" target="_top">
+            <div id="up">
+                <i id="arrow" class="fa-solid fa-arrow-up-long"></i>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
